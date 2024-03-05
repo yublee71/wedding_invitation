@@ -18,11 +18,11 @@ export default function Home() {
         }}
       >
         <Weddingdate yearDate="2024年" monthDate="3月" dayDate="30日" />
-        <Coverphoto coverPhoto="/KakaoTalk_2.jpg" />
+        <Coverphoto coverPhoto="/cover_photo.jpg" />
         <Texts
           textyouWant="니콜라&이유빈"
-          weddingtime="토요일 오후 3시"
-          place="서울 어딘가에서"
+          weddingtime="일요일 오전 11시 30분"
+          place="브라이튼 하우스 한남점"
         />
       </section>
       <section
