@@ -5,6 +5,7 @@ import { Secondtexts } from "@/components/secondtext";
 import { Texts } from "@/components/texts";
 import { Gallery } from "@/components/gallery";
 import { KakaoMapLocation } from "@/components/KakaoMapLocation";
+import { Photomask } from "@/components/photomask";
 
 export default function Home() {
   return (
@@ -17,8 +18,8 @@ export default function Home() {
           alignItems: "center",
         }}
       >
-        <Weddingdate yearDate="2024年" monthDate="3月" dayDate="30日" />
-        <Coverphoto coverPhoto="/cover_photo.jpg" />
+        <Weddingdate yearDate="2024年" monthDate="3月" dayDate="31日" />
+        <Photomask />
         <Texts
           textyouWant="니콜라&이유빈"
           weddingtime="일요일 오전 11시 30분"
